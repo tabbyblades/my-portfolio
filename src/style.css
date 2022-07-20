@@ -1,0 +1,52 @@
+body{
+    margin-top: 100px;
+}
+   :root{
+    --primary-colour:#6c63ff;
+    --secondary-colour:white;
+    --box-shadow:0 5px 10px rgba(0, 0, 0, 0.3);
+   } 
+    h1,h2,h3{
+    text-align: center;
+}
+
+h1{
+    font-size:96px;
+}
+
+h2{
+    font-size:48px;
+}
+
+h3{
+    font-size:24px;
+    opacity: 0.7;
+    margin-top: 10px;
+}
+
+.navigation-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.contact-me{
+    border-radius: 4px;
+    padding: 20px 15px;
+    text-decoration: none;
+    background: var(--primary-colour);
+    color: white;
+    box-shadow: var(--box-shadow);
+    margin: 20px;
+
+}
+
+.about-me{
+    border-radius: 4px;
+    padding: 20px 15px;
+    text-decoration: none;
+    color: var(--primary-colour);
+    border: 1px solid var(--primary-colour);
+    margin: 20px;
+}
